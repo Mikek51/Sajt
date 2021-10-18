@@ -1,0 +1,332 @@
+
+@media (max-width: 992px) {
+	.lista {
+		display: none;
+		clear: both;
+	}
+}
+
+@media (max-width: 768px) {
+	.slc1 {
+		display: none;
+	}
+	.feat {
+		padding-bottom: 20px;
+	}
+	.senior {
+		word-wrap: break-word;
+	}
+}
+
+@media(max-width:767px) {
+	.spm {
+		text-align: left;
+	}
+	.img {
+		display: none;
+	}
+}
+
+
+@media(min-width:767px) {
+	.foot  {
+		display: flex;
+		
+		justify-content: center;
+		
+	}
+}
+
+p, h1, h3, h4, h5{
+	color: #35577B;
+	line-height: 1.5;
+}
+h1, h3, h4, h5{
+	padding: 15px;
+}
+.dugme{
+	border: 5px solid #FD570A;
+	border-radius: 42px;
+	background-color:#FD570A;
+	
+}
+.dugme a{
+	text-decoration: none;
+	color: white;
+	padding-right: 25px;
+}
+.izab{
+	border: none;
+	
+}
+.dev{
+	color: #D72638;
+}
+.poslovi{
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 42px;
+	
+}
+.promena{
+	list-style: none;
+}
+
+.promena li::before{
+	content:"\2022";
+	color:#FF570A;
+	
+}
+.text {
+	display: flex;
+	justify-content: center;
+}
+
+.grupe {
+	text-align: center;
+	width: fit-content;
+	padding-left: 10px;
+	
+}
+
+#Pjob {
+	text-align: center;
+	top: 14px;
+	left: 1216px;
+	width: 144px;
+	height: 52px;
+	background: #FD570A 0% 0% no-repeat padding-box;
+	border-radius: 26px;
+	opacity: 1;
+}
+
+.bck {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#cont {
+	position: relative;
+}
+
+.footer p{
+	padding-left: 10px;
+}
+
+.h1 {
+	font-size: 72vw;
+	color: rgb(255, 255, 255);
+	opacity: 1;
+	position: absolute;
+	word-wrap: normal;
+	top: 8px;
+	right: 16px;
+	padding-left: 60%;
+	padding-top: 5%;
+}
+
+.p1 {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	opacity: 1;
+	word-wrap: normal;
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	padding-left: 60%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+.podnaslov {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.linkovi {
+	text-decoration: none;
+}
+
+.itemi {
+	list-style: none;
+	color: #35577B;
+	font: normal normal 900 20px/30px Avenir;
+	padding: 10px;
+	box-shadow: 0px 2px 6px #E5EDF0;
+	border-radius: 18px;
+}
+
+.slc {
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 6px;
+	border-radius: 42px;
+	opacity: 1;
+	overflow: hidden;
+	width: fit-content;
+	
+	
+	
+}
+
+
+.slc1 {
+	border: none;
+	
+}
+
+.izaberi {
+	height: 40px;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 0px 1px #242C3A66;
+	border-radius: 20px;
+	opacity: 1;
+	width: fit-content;
+}
+
+.spm {
+	height: auto;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 6px #E5EDF0;
+	border: 1px solid #E9632D;
+	border-top: 5px solid #FF570A;
+	border-radius: 8px;
+	opacity: 1;
+}
+
+.spm1 {
+	height: auto;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 6px #E5EDF0;
+	border-radius: 8px;
+	opacity: 1;
+}
+
+.psm{
+	border: none;
+	padding-left: 25px;
+	padding-top: 15px;
+}
+
+
+.senior {
+	/*height: 27px;*/
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-avenir);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-12355b);
+	font: normal normal 900 20px/24px Avenir;
+	letter-spacing: 0px;
+	color: #12355B;
+	opacity: 1;
+}
+
+
+.naziv {
+	height: 22px;
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/26px var(--unnamed-font-family-avenir);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-35577b);
+	text-align: left;
+	font: normal normal normal 16px/26px Avenir;
+	letter-spacing: 0px;
+	color: #35577B;
+	opacity: 1;
+	text-align: justify;
+}
+
+.mesto {
+	height: 22px;
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/26px var(--unnamed-font-family-avenir);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-35577b);
+	text-align: left;
+	font: normal normal normal 16px/26px Avenir;
+	letter-spacing: 0px;
+	color: #35577B;
+	opacity: 1;
+	text-align: justify;
+}
+
+.obj {
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-avenir);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-12355b);
+	word-wrap: break-word;
+	font: normal normal normal 14px/22px Avenir;
+	letter-spacing: 0px;
+	color: #12355B;
+	opacity: 1;
+}
+
+.c {
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	border: 1px solid var(--unnamed-color-d1d5db);
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #D1D5DB;
+	border-radius: 16px;
+	opacity: 1;
+	display: inline;
+	padding-left: 15px;
+}
+
+.img {
+	border: 1px solid #DADDE2;
+	border-radius: 4px;
+	opacity: 1;
+}
+
+.mali {
+	width: auto;
+	height: auto;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 6px #E5EDF0;
+	border-radius: 8px;
+	opacity: 1;
+	border-top: 5px solid #D72638;
+}
+
+.flexbox-container {
+	display: flex;
+}
+
+.flexbox-container.wrap {
+	flex-wrap: wrap;
+}
+
+.topComp {
+	width: 308px;
+	height: 55px;
+	font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-42) var(--unnamed-font-family-avenir);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-d72638);
+	text-align: left;
+	font: normal normal 900 36px/42px Avenir;
+	letter-spacing: 0px;
+	color: #D72638;
+	opacity: 1;
+	margin-top: 50px;
+}
+
+.end {
+	text-align: center;
+	font: normal normal normal 14px/22px Avenir;
+	color: #FF570A;
+}
+.container {
+	width: 50%;
+}
+.float-right {
+	float: right;
+}
+#right ul li a {
+	padding-left: 30px;
+}
+.cons, .pros {
+	border-top: 10px solid #FD570A;
+	border-radius: 10px;
+}
